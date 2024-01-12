@@ -11,9 +11,7 @@ num = int(input("Por favor, insira um número: "))
 
 # verifica se o numero é par ou impar
 
-if num == 0:
-    print(f"O número {num} é par.")
-elif num % 2 == 0:
+if num % 2 == 0:
     print(f"O número {num} é par.")
 else:
     print(f"O número {num} é ímpar.")
