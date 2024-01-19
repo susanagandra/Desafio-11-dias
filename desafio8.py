@@ -45,9 +45,6 @@ while True:
             print("\nEmpty list.")
 
 
-        current_list = show_list()
-        print("Current List:", current_list)
-
     elif choice == '4':
         print("Exiting the program. Goodbye!")
         break
