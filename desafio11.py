@@ -1,21 +1,13 @@
 # Desenvolva um script que ordene uma lista de números fornecida pelo usuário.
 
-def sort_numbers():
 
-    numbers = []     # Initialize an empty list to store the numbers
+num_elements = (input("Insert the numbers you want, with a space between them, add too the list: "))
 
-    num_elements = int(input("How many numbers do you want to add to the list? "))
+number_str = num_elements.split()  #divide a entrada the numeros numa lista de strings
 
+numbers = [int(number) for number in number_str] #converte os números para inteiros
 
-    for i in range(num_elements):        # Loop to receive numbers from the user
-        number = float(input(f"Enter number {i + 1}: "))
-        numbers.append(number)
+ordered_numbers = sorted(numbers)
 
-    numbers.sort()
-
-
-    print("\nOriginal List:", numbers)
-    print("Sorted List:", numbers)
-
-sort_numbers()
+print("Sorted List:", ordered_numbers)
 
