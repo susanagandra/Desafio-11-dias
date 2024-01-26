@@ -28,14 +28,16 @@ def hangman():
     attempts = 0
 
     print("Welcome to Hangman!")
+    print("You have 10 attempts to guess the hidden word.")
 
     while True:
             current_display = display_word(word_to_guess, guessed_letters)
-            print(f"Current word: {current_display}")
+            print(f"Word: {current_display}")
             guess = input("Guess a letter: ").lower()
 
             if guess in guessed_letters:
-                print("You already guessed that letter. Try again.")
+                attempts += 1
+                print(f"You already guessed that letter. Try again. Attempts remaining: {max_attempts - attempts}")
                 continue
 
             guessed_letters.append(guess)
