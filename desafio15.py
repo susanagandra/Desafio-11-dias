@@ -24,7 +24,7 @@ def view_library():
             reader_csv= csv.reader(csv_file)
             print("\n--- Library ---")
             for row in reader_csv:
-                print(f"Título: {row[0]}, Autor: {row[1]}, Ano: {row[2]}")
+                print(f"Title: {row[0]}, Author: {row[1]}, Year: {row[2]}")
     except FileNotFoundError:
         print("\nA The library is empty.")
 
