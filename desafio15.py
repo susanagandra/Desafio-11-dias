@@ -9,7 +9,7 @@ def add_book(title, author, year):
     year = input("Enter the publication year: ")
     add_book(title, author, year)
 
-    add_book(title, author, year)
+
     print("Book added successfully!")
 
 
