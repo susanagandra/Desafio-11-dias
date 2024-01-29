@@ -17,7 +17,7 @@ def add_contact():
     print("Contato inserido com sucesso!")
 
 def delete_contacts():
-    name_to_delete = input("Digite o nome do contato que deseja excluir: ")
+    name_to_delete = input("Nome que deseja apagar: ")
     contacts = []
     
     try:
@@ -31,13 +31,13 @@ def delete_contacts():
             writer = csv.writer(csv_file)
             writer.writerows(contacts)
 
-        print(f"Contato '{name_to_delete}' excluído com sucesso!")
+        print(f"Nome: '{name_to_delete}' apagado!")
     except FileNotFoundError:
-        print("Não existe lista de contatos.")
-        
+        print("Não existe lista de contactos.")
+
 
 def search_contact():
-    name_to_search = input("Digite o nome do contato que deseja buscar: ")
+    name_to_search = input("Nome: ")
     
     try:
         with open('contact.csv', mode='r') as csv_file:
@@ -49,9 +49,9 @@ def search_contact():
                     found = True
 
             if not found:
-                print(f"Contato '{name_to_search}' não encontrado.")
+                print(f"Nome: '{name_to_search}' não encontrado.")
     except FileNotFoundError:
-        print("Não existe lista de contatos.")
+        print("Não existe lista de contactos.")
 
 def show_contacts():
     try:
