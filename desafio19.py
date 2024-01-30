@@ -3,7 +3,8 @@
 
 
 import csv
-import os
+
+
 
 def add_contact():
     name = input("Nome: ")
@@ -66,8 +67,8 @@ def show_contacts():
 while True:
     print("\n--- Lista de Contatos ---")
     print("1. Adicionar contato")
-    print("2. Excluir contato")
-    print("3. Buscar contato")
+    print("2. Apagar contato")
+    print("3. Procurar contato")
     print("4. Ver lista de contatos")
     print("5. Sair")
 

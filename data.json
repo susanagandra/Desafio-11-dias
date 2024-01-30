@@ -1,0 +1,11 @@
+[
+    {"question": "Qual é a capital do Brasil?", "options": ["Rio de Janeiro", "São Paulo", "Brasília", "Belo Horizonte"], "correct_option": 3},
+    {"question": "Qual é o maior planeta do sistema solar?", "options": ["Vênus", "Júpiter", "Marte", "Saturno"], "correct_option": 2},
+    {"question": "Quem escreveu 'Dom Quixote'?", "options": ["Miguel de Cervantes", "William Shakespeare", "Charles Dickens", "Fyodor Dostoevsky"], "correct_option": 1},
+    {"question": "Qual é a montanha mais alta do mundo?", "options": ["Monte Everest", "Monte Kilimanjaro", "Monte McKinley", "Monte Fuji"], "correct_option": 1},
+    {"question": "Quem pintou a Mona Lisa?", "options": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"], "correct_option": 2},
+    {"question": "Em que ano ocorreu a Revolução Francesa?", "options": ["1776", "1789", "1804", "1820"], "correct_option": 2},
+    {"question": "Qual é o elemento mais abundante na crosta terrestre?", "options": ["Oxigênio", "Silício", "Ferro", "Alumínio"], "correct_option": 2},
+    {"question": "Quem foi o primeiro presidente dos Estados Unidos?", "options": ["Thomas Jefferson", "George Washington", "John Adams", "James Madison"], "correct_option": 2},
+    {"question": "Qual é o rio mais longo do mundo?", "options": ["Rio Amazonas", "Rio Nilo", "Rio Yangtzé", "Rio Mississipi"], "correct_option": 1}
+]
